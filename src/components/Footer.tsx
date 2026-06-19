@@ -13,9 +13,11 @@ export default function Footer() {
               Nasif<span className="text-primary-500">.dev</span>
             </span>
           </div>
+          
           <p className="text-gray-500 dark:text-gray-400 text-sm flex items-center gap-1">
             Built with <Heart size={14} className="text-red-500 fill-red-500" /> by Nasif Bin Borhan
           </p>
+          
           <p className="text-gray-400 dark:text-gray-500 text-sm">
             © {new Date().getFullYear()} All rights reserved.
           </p>

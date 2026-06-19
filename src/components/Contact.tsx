@@ -1,6 +1,6 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef, useState } from 'react'
-import { Mail, MapPin, Send, GitBranch, Linkedin, Twitter } from 'lucide-react'
+import { Mail, MapPin, Send, Github, Linkedin, Facebook } from 'lucide-react'
 
 const contactInfo = [
   { icon: Mail, label: 'Email', value: 'engineer.nasif@gmail.com', href: 'mailto:engineer.nasif@gmail.com' },
@@ -10,7 +10,7 @@ const contactInfo = [
 const socials = [
   { icon: Github, href: 'https://github.com/nasif-meta', label: 'GitHub' },
   { icon: Linkedin, href: 'https://www.linkedin.com/in/nasif-bin-borhan', label: 'LinkedIn' },
-  { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
+  { icon: Facebook, href: 'https://facebook.com/nasif.meta', label: 'Facebook' },
 ]
 
 export default function Contact() {

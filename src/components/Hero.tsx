@@ -1,9 +1,10 @@
 import { motion } from 'framer-motion'
-import { ArrowDown, Globe, Mail } from 'lucide-react'
+import { ArrowDown, Github, Linkedin, Facebook, Mail } from 'lucide-react'
 
 const socialLinks = [
   { icon: Github, href: 'https://github.com/nasif-meta', label: 'GitHub' },
   { icon: Linkedin, href: 'https://www.linkedin.com/in/nasif-bin-borhan', label: 'LinkedIn' },
+  { icon: Facebook, href: 'https://facebook.com/nasif.meta', label: 'Facebook' },
   { icon: Mail, href: 'mailto:engineer.nasif@gmail.com', label: 'Email' },
 ]
 
