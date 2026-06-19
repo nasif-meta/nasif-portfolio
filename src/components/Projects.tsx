@@ -1,6 +1,6 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
-import { ExternalLink, GitBranch } from 'lucide-react'
+import { ExternalLink, Github } from 'lucide-react'
 
 const projects = [
   {
@@ -8,7 +8,7 @@ const projects = [
     description: 'A modern analytics dashboard for e-commerce platforms with real-time data visualization, sales tracking, and inventory management.',
     tags: ['React', 'TypeScript', 'Tailwind', 'Recharts'],
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop',
-    GitBranch: '#',
+    github: 'https://github.com/nasif-meta',
     demo: '#',
     featured: true,
   },
@@ -17,7 +17,7 @@ const projects = [
     description: 'A responsive social platform with real-time messaging, post creation, and interactive feed with smooth animations.',
     tags: ['Next.js', 'Firebase', 'Framer Motion', 'Tailwind'],
     image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=500&fit=crop',
-    GitBranch: '#',
+    github: 'https://github.com/nasif-meta',
     demo: '#',
     featured: false,
   },
@@ -26,7 +26,7 @@ const projects = [
     description: 'A tool that helps developers create stunning portfolios in minutes with customizable themes and sections.',
     tags: ['React', 'Vite', 'TypeScript', 'Zustand'],
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop',
-    GitBranch: '#',
+    github: 'https://github.com/nasif-meta',
     demo: '#',
     featured: false,
   },
@@ -35,7 +35,7 @@ const projects = [
     description: 'A beautiful weather application with animated icons, location search, and 7-day forecast with stunning UI.',
     tags: ['React', 'OpenWeather API', 'Framer Motion'],
     image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&h=500&fit=crop',
-    GitBranch: '#',
+    github: 'https://github.com/nasif-meta',
     demo: '#',
     featured: false,
   },
@@ -44,7 +44,7 @@ const projects = [
     description: 'A collaborative task manager with drag-and-drop boards, team assignments, and progress tracking.',
     tags: ['React', 'Redux', 'Node.js', 'MongoDB'],
     image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=500&fit=crop',
-    GitBranch: '#',
+    github: 'https://github.com/nasif-meta',
     demo: '#',
     featured: false,
   },
@@ -53,7 +53,7 @@ const projects = [
     description: 'An immersive music player interface with waveform visualization, playlist management, and smooth transitions.',
     tags: ['React', 'Web Audio API', 'CSS Animations'],
     image: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=800&h=500&fit=crop',
-    GitBranch: '#',
+    github: 'https://github.com/nasif-meta',
     demo: '#',
     featured: false,
   },
@@ -96,8 +96,8 @@ export default function Projects() {
                     ))}
                   </div>
                   <div className="flex gap-3">
-                    <a href={project.GitBranch} className="flex items-center gap-2 px-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 text-sm font-medium hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
-                      <GitBranch size={16} /> Code
+                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 text-sm font-medium hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
+                      <Github size={16} /> Code
                     </a>
                     <a href={project.demo} className="flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-primary-500 to-accent-purple text-white text-sm font-medium hover:shadow-lg hover:shadow-primary-500/25 transition-all">
                       <ExternalLink size={16} /> Live Demo

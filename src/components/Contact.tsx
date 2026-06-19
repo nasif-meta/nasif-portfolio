@@ -3,13 +3,13 @@ import { useRef, useState } from 'react'
 import { Mail, MapPin, Send, GitBranch, Linkedin, Twitter } from 'lucide-react'
 
 const contactInfo = [
-  { icon: Mail, label: 'Email', value: 'nasif@example.com', href: 'mailto:nasif@example.com' },
+  { icon: Mail, label: 'Email', value: 'engineer.nasif@gmail.com', href: 'mailto:engineer.nasif@gmail.com' },
   { icon: MapPin, label: 'Location', value: 'Bangladesh', href: '#' },
 ]
 
 const socials = [
-  { icon: GitBranch, href: 'https://github.com/nasif', label: 'GitHub' },
-  { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
+  { icon: Github, href: 'https://github.com/nasif-meta', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/nasif-bin-borhan', label: 'LinkedIn' },
   { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
 ]
 

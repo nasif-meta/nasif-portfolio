@@ -2,10 +2,9 @@ import { motion } from 'framer-motion'
 import { ArrowDown, Globe, Mail } from 'lucide-react'
 
 const socialLinks = [
-  { icon: Globe, href: 'https://github.com', label: 'GitHub' },
-  { icon: Globe, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: Globe, href: 'https://twitter.com', label: 'Twitter' },
-  { icon: Mail, href: 'mailto:nasif@example.com', label: 'Email' },
+  { icon: Github, href: 'https://github.com/nasif-meta', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/nasif-bin-borhan', label: 'LinkedIn' },
+  { icon: Mail, href: 'mailto:engineer.nasif@gmail.com', label: 'Email' },
 ]
 
 export default function Hero() {
